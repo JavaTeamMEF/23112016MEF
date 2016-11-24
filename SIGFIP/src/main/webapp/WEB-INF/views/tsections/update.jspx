@@ -5,5 +5,6 @@
     <form:update id="fu_com_mef_sigfip_elaboration_TSection" modelAttribute="TSection_" path="/tsections" versionField="Version" z="lQK0jJtk8ez8RyyG0wJ6evNCUMM=">
         <field:input field="sec_lib_court" id="c_com_mef_sigfip_elaboration_TSection_sec_lib_court" z="EWzeDSGIKefMJy0P3yjtKJJ4VHA="/>
         <field:input field="sec_lib_long" id="c_com_mef_sigfip_elaboration_TSection_sec_lib_long" z="TJ4vAZyv65YMtravt6Jgx7BOqXw="/>
+        <field:select field="list_chap" id="c_com_mef_sigfip_elaboration_TSection_list_chap" itemValue="id" items="${tchapitres}" multiple="true" path="/tchapitres" z="N5hL9F0YDNY/P8kpwB8w6bku5QQ="/>
     </form:update>
 </div>

@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TChapitre" object="${tchapitre_}" path="/tchapitres" z="kOIDmdQ7KgxCk0xPS03Nr/GC3qE=">
         <field:display field="ib_chap_lib" id="s_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" object="${tchapitre_}" z="lWzDM8CGcKhNQrtswnWyqC99Re4="/>
+        <field:display field="sect" id="s_com_mef_sigfip_elaboration_TChapitre_sect" object="${tchapitre_}" z="uirZaeZb8p/fSBatU+FqnKn1RF8="/>
     </page:show>
 </div>

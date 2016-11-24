@@ -5,6 +5,7 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TChapitre" items="${tchapitres}" z="kIwJUgGDBNL9RlfLOG9sgzkmp18=">
         <table:table data="${tchapitres}" id="l_com_mef_sigfip_elaboration_TChapitre" path="/tchapitres" z="w8lPb/k/HEzYlxmiUbIYaFqiaWc=">
             <table:column id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" property="ib_chap_lib" z="ephWYCX6W8scR1GmUF9XvFc46lw="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_sect" property="sect" z="aDkyNy45D6EAohdPlDPPLrHlYkA="/>
         </table:table>
     </page:list>
 </div>

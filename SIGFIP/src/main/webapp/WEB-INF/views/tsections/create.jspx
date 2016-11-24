@@ -5,6 +5,7 @@
     <form:create id="fc_com_mef_sigfip_elaboration_TSection" modelAttribute="TSection_" path="/tsections" render="${empty dependencies}" z="QOaYlsiXU6m+4AwC22K8NoWFLvM=">
         <field:input field="sec_lib_court" id="c_com_mef_sigfip_elaboration_TSection_sec_lib_court" z="EWzeDSGIKefMJy0P3yjtKJJ4VHA="/>
         <field:input field="sec_lib_long" id="c_com_mef_sigfip_elaboration_TSection_sec_lib_long" z="TJ4vAZyv65YMtravt6Jgx7BOqXw="/>
+        <field:select field="list_chap" id="c_com_mef_sigfip_elaboration_TSection_list_chap" itemValue="id" items="${tchapitres}" multiple="true" path="/tchapitres" z="N5hL9F0YDNY/P8kpwB8w6bku5QQ="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TSection" render="${not empty dependencies}" z="9Yuf1NDOXyMo+u0ZAuQHQUHhx+o="/>
 </div>

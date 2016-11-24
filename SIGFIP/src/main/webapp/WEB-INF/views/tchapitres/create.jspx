@@ -4,6 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_mef_sigfip_elaboration_TChapitre" modelAttribute="TChapitre_" path="/tchapitres" render="${empty dependencies}" z="0qX3CQGnvaSJm2Z2L7i1kzxg+e8=">
         <field:input field="ib_chap_lib" id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" z="ceEelD7Q1Q3h5PxfCwtRfGjNj6o="/>
+        <field:select field="sect" id="c_com_mef_sigfip_elaboration_TChapitre_sect" itemValue="id" items="${tsections}" path="/tsections" z="k6ah0FMjbYf7uhIJ1EOVLK/Gpck="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TChapitre" render="${not empty dependencies}" z="KWPfqPKDTO6cNxCj+UYWGxcF3ko="/>
 </div>

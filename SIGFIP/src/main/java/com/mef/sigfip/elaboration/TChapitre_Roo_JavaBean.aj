@@ -4,6 +4,7 @@
 package com.mef.sigfip.elaboration;
 
 import com.mef.sigfip.elaboration.TChapitre;
+import com.mef.sigfip.elaboration.TSection;
 
 privileged aspect TChapitre_Roo_JavaBean {
     
@@ -13,6 +14,14 @@ privileged aspect TChapitre_Roo_JavaBean {
     
     public void TChapitre.setIb_chap_lib(String ib_chap_lib) {
         this.ib_chap_lib = ib_chap_lib;
+    }
+    
+    public TSection TChapitre.getSect() {
+        return this.sect;
+    }
+    
+    public void TChapitre.setSect(TSection sect) {
+        this.sect = sect;
     }
     
 }

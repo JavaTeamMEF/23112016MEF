@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_mef_sigfip_elaboration_TChapitre" modelAttribute="TChapitre_" path="/tchapitres" versionField="Version" z="jX9NZTf8MfZ51b25Ja5z0Tqn4mE=">
         <field:input field="ib_chap_lib" id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" z="ceEelD7Q1Q3h5PxfCwtRfGjNj6o="/>
+        <field:select field="sect" id="c_com_mef_sigfip_elaboration_TChapitre_sect" itemValue="id" items="${tsections}" path="/tsections" z="k6ah0FMjbYf7uhIJ1EOVLK/Gpck="/>
     </form:update>
 </div>

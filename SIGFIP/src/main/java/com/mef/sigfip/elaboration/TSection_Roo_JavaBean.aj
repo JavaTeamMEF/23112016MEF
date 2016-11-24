@@ -3,7 +3,9 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TSection;
+import java.util.List;
 
 privileged aspect TSection_Roo_JavaBean {
     
@@ -21,6 +23,14 @@ privileged aspect TSection_Roo_JavaBean {
     
     public void TSection.setSec_lib_long(String sec_lib_long) {
         this.sec_lib_long = sec_lib_long;
+    }
+    
+    public List<TChapitre> TSection.getList_chap() {
+        return this.list_chap;
+    }
+    
+    public void TSection.setList_chap(List<TChapitre> list_chap) {
+        this.list_chap = list_chap;
     }
     
 }

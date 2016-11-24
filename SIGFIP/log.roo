@@ -70,3 +70,27 @@ security setup
 hint
 focus --class ~.TChapitre
 // Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-24 09:56:05
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 10:00:12
+focus --class ~.TChapitre
+// [failed] field reference --fieldName section --type ~.TSection
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 10:07:18
+focus --class ~.TChapitre
+// [failed] field set --fieldName section --type ~.TSection
+field set --fieldName sect --type ~.TSection
+// [failed] field reference --fieldName sect --type ~.TSection 
+focus --class ~.TSection
+focus --class ~.TChapitre
+field reference --fieldName sect --type ~.TSection
+focus --class ~.TSection
+field list --fieldName list_chap --type ~.TChapitre
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 10:20:05
+hint
+hint
+addon search french
+download status
+download accept terms of use
+addon search french
+// [failed] addon info id --searchResultId ..
+addon info id 1
+addon install id 1
+addon info id --searchResultId 1
