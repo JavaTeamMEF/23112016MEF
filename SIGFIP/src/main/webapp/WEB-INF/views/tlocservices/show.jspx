@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mef_sigfip_elaboration_TLocService" object="${tlocservice_}" path="/tlocservices" z="pGDfMxULJOYBlnis4bgv91m8QiA=">
+        <field:display field="lib_loc_serv" id="s_com_mef_sigfip_elaboration_TLocService_lib_loc_serv" object="${tlocservice_}" z="aRw9UzJ20iEJoc272AV6lDkhfYs="/>
+    </page:show>
+</div>

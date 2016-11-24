@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mef_sigfip_elaboration_TParagraphe" object="${tparagraphe_}" path="/tparagraphes" z="xO/TY3T4rcEDuKWM/L7hK9L3x0g=">
+        <field:display field="lib_paragraphe" id="s_com_mef_sigfip_elaboration_TParagraphe_lib_paragraphe" object="${tparagraphe_}" z="15/GI3wsCV5hbcRp2jzSapo0VGY="/>
+    </page:show>
+</div>

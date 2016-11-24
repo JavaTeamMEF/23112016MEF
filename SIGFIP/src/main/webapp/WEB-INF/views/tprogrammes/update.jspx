@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mef_sigfip_elaboration_TProgramme" modelAttribute="TProgramme_" path="/tprogrammes" versionField="Version" z="i8udk/z3XjtjOI1cCuAjY6e3lPI=">
+        <field:input field="lib_programme" id="c_com_mef_sigfip_elaboration_TProgramme_lib_programme" z="ReVz2K+EsGMbsoBMSi0i2HCwJ7s="/>
+    </form:update>
+</div>

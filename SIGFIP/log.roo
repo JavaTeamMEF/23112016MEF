@@ -1,0 +1,68 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 07:12:20
+project --topLevelPackage com.mef.sigfip.elaboration --projectName SIGFIP --java 6 --packaging JAR
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2016-11-24 07:12:20
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 07:12:22
+hint
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE
+hint
+entity jpa --class com.mef.sigfip.elaboration.TSection
+hint
+field string --fieldName sec_lib_court
+field string sec_lib_long
+hint
+entity jpa --class com.mef.sigfip.elaboration.TChapitre
+field string --fieldName ib_chap_lib
+entity jpa --class com.mef.sigfip.elaboration.TNumOrdreServ
+entity jpa --class com.mef.sigfip.elaboration.TCategorieService
+field string --fieldName lib_categ_seerv
+entity jpa --class com.mef.sigfip.elaboration.TTypeBudget
+field string --fieldName lib_typ_budget
+entity jpa --class com.mef.sigfip.elaboration.TLocService
+field string --fieldName lib_loc_serv
+entity jpa --class com.mef.sigfip.elaboration.TTypeService
+field string lib_typ_serv
+entity jpa --class com.mef.sigfip.elaboration.TRegion
+field string --fieldName lib_region
+entity jpa --class com.mef.sigfip.elaboration.TPrefecture
+field string --fieldName lib_prefecture
+entity jpa --class com.mef.sigfip.elaboration.TProgramme
+field string lib_programme
+entity jpa --class com.mef.sigfip.elaboration.TAction
+field string lib_action
+entity jpa --class com.mef.sigfip.elaboration.TActivite
+field string lib_activite
+entity jpa --class com.mef.sigfip.elaboration.TLigne
+field string lib_ligne
+entity jpa --class com.mef.sigfip.elaboration.TGrandeNature
+field string lib_grande_nature
+entity jpa --class com.mef.sigfip.elaboration.TParagraphe
+field string lib_paragraphe
+entity jpa --class com.mef.sigfip.elaboration.TArticle
+field string lib_article
+entity jpa --class com.mef.sigfip.elaboration.TAxeScape
+field string lib_axe_scape
+entity jpa --class com.mef.sigfip.elaboration.TAxeDet
+field string lib_axe_det
+entity jpa --class com.mef.sigfip.elaboration.TClasse
+field string lib_classe
+entity jpa --class com.mef.sigfip.elaboration.TGroupe
+field string lib_groupe
+entity jpa --class com.mef.sigfip.elaboration.TFonction
+field string lib_fonction
+entity jpa --class com.mef.sigfip.elaboration.TSourceFin
+field string lib_sf
+entity jpa --class com.mef.sigfip.elaboration.TLocBenef
+field string lib_loc_ben
+entity jpa --class com.mef.sigfip.elaboration.TBailleur
+field string lib_bailleur
+entity jpa --class com.mef.sigfip.elaboration.TGestion
+field string type_gestion
+entity jpa --class com.mef.sigfip.elaboration.TImputBudgetaire
+hint
+hint web mvc
+hint
+hint web mvc
+web mvc setup
+hint
+web mvc all --package com.mef.sigfip.elaboration.web
+security setup

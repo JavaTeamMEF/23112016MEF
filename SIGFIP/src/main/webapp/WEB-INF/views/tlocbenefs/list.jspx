@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mef_sigfip_elaboration_TLocBenef" items="${tlocbenefs}" z="aq2y0/zYI3w1D3o5tTJl5FqvSk4=">
+        <table:table data="${tlocbenefs}" id="l_com_mef_sigfip_elaboration_TLocBenef" path="/tlocbenefs" z="TguH125IAVQVYkJg4/9A2Nr++3I=">
+            <table:column id="c_com_mef_sigfip_elaboration_TLocBenef_lib_loc_ben" property="lib_loc_ben" z="qJtqW7Z+2n2HhtvRHT8hsqPU1II="/>
+        </table:table>
+    </page:list>
+</div>

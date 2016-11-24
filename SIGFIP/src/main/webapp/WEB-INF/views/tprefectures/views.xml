@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="tprefectures/list">
+        <put-attribute name="body" value="/WEB-INF/views/tprefectures/list.jspx"/>
+    </definition>
+<definition extends="default" name="tprefectures/show">
+        <put-attribute name="body" value="/WEB-INF/views/tprefectures/show.jspx"/>
+    </definition>
+<definition extends="default" name="tprefectures/create">
+        <put-attribute name="body" value="/WEB-INF/views/tprefectures/create.jspx"/>
+    </definition>
+<definition extends="default" name="tprefectures/update">
+        <put-attribute name="body" value="/WEB-INF/views/tprefectures/update.jspx"/>
+    </definition>
+</tiles-definitions>

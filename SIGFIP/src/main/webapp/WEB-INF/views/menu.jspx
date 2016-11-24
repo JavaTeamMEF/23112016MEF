@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+		<sec:authorize ifAllGranted="ROLE_ADMIN">
+			<menu:category id="c_tprogramme" z="zYyytD3nSMj5eYgfGxqEYLPQVG8=">
+				<menu:item id="i_tprogramme_new" messageCode="global_menu_new"
+					url="/tprogrammes?form" z="batAMiDL2zbtRZCJuc0UbqTgMtY=" />
+				<menu:item id="i_tprogramme_list" messageCode="global_menu_list"
+					url="/tprogrammes?page=1&amp;size=${empty param.size ? 10 : param.size}"
+					z="+OMQmsktrUVqctUAemIRZovcwtE=" />
+			</menu:category>
+		</sec:authorize>
+		<menu:category id="c_tfonction" z="Ax1bFbeDF/C7u46i9kBBGy5h9rc=">
+            <menu:item id="i_tfonction_new" messageCode="global_menu_new" url="/tfonctions?form" z="3Mj3B4d1sUt1O2lzq/X3W5N6teA="/>
+            <menu:item id="i_tfonction_list" messageCode="global_menu_list" url="/tfonctions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IJYc8yFK93K67F5RbGtEQsce6tQ="/>
+        </menu:category>
+        <menu:category id="c_tcategorieservice" z="6fLCsI1od4Wj48b3HrXsdw+xtw8=">
+            <menu:item id="i_tcategorieservice_new" messageCode="global_menu_new" url="/tcategorieservices?form" z="dSTNsjX0xmpC2luzWSeixXtqWvI="/>
+            <menu:item id="i_tcategorieservice_list" messageCode="global_menu_list" url="/tcategorieservices?page=1&amp;size=${empty param.size ? 10 : param.size}" z="uRyBb+rzBKuL1syedSDFmXOE5n0="/>
+        </menu:category>
+        <menu:category id="c_tgrandenature" z="f9Ogs3d1kYPWQqlGD8yc58xGJXk=">
+            <menu:item id="i_tgrandenature_new" messageCode="global_menu_new" url="/tgrandenatures?form" z="+TEjd3QyNanGMfitDXWEQ3zqOhY="/>
+            <menu:item id="i_tgrandenature_list" messageCode="global_menu_list" url="/tgrandenatures?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KDzCSpZkfuzxkGqT4RjamcOP80E="/>
+        </menu:category>
+        <menu:category id="c_tsourcefin" z="RmMgmKhwkZ8a2czdSWApoFAJzmY=">
+            <menu:item id="i_tsourcefin_new" messageCode="global_menu_new" url="/tsourcefins?form" z="ZfiJeTHrR/oeaqGq986j3svgdhU="/>
+            <menu:item id="i_tsourcefin_list" messageCode="global_menu_list" url="/tsourcefins?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ABn5KNGrsRV/V+CM8k3+J08crBE="/>
+        </menu:category>
+        <menu:category id="c_taction" z="1FiinampEZM9mnsjgfPKdD/c2eE=">
+            <menu:item id="i_taction_new" messageCode="global_menu_new" url="/tactions?form" z="1erayjUvw1vbIzG6D1CsyzcElJ4="/>
+            <menu:item id="i_taction_list" messageCode="global_menu_list" url="/tactions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fDJb/rO1GMpVAs8P9BLhOczWPok="/>
+        </menu:category>
+        <menu:category id="c_tprefecture" z="2WSXTkJcSKxgVXQlsGSE/Qxlvwo=">
+            <menu:item id="i_tprefecture_new" messageCode="global_menu_new" url="/tprefectures?form" z="jyYq7PGML7S9mypbwRiLSA1Hhxc="/>
+            <menu:item id="i_tprefecture_list" messageCode="global_menu_list" url="/tprefectures?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PLBkatRgFdwQYpYn/9wwXUf5vbw="/>
+        </menu:category>
+        <menu:category id="c_tchapitre" z="L88khCE8Fd1RG0JIc39t5tGeXgU=">
+            <menu:item id="i_tchapitre_new" messageCode="global_menu_new" url="/tchapitres?form" z="XtZ2+hHs4Ptl8h0xYBtQLXb5KGQ="/>
+            <menu:item id="i_tchapitre_list" messageCode="global_menu_list" url="/tchapitres?page=1&amp;size=${empty param.size ? 10 : param.size}" z="S+LZZAfHipsX9a3xBGqj1Imz8uU="/>
+        </menu:category>
+        <menu:category id="c_taxedet" z="Mj6/Csl7KRcHn8ob+/nBjdqcqf4=">
+            <menu:item id="i_taxedet_new" messageCode="global_menu_new" url="/taxedets?form" z="hwlUk/dtLeDRSQN3RrUWXW1nUOo="/>
+            <menu:item id="i_taxedet_list" messageCode="global_menu_list" url="/taxedets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MR7d3QsXweaFT4NYwRn56Dx5K8Q="/>
+        </menu:category>
+        <menu:category id="c_tactivite" z="6OYdEnzNFzk6UISshm4MW5lAlnw=">
+            <menu:item id="i_tactivite_new" messageCode="global_menu_new" url="/tactivites?form" z="cyV05bzmQ0vGEknvUFSf7axqZj8="/>
+            <menu:item id="i_tactivite_list" messageCode="global_menu_list" url="/tactivites?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rMMYeMMSgfh4hz5MFTx8rv5hOxk="/>
+        </menu:category>
+        <menu:category id="c_tbailleur" z="PzexPRa/MTJFJsV21mBaKHRuqbg=">
+            <menu:item id="i_tbailleur_new" messageCode="global_menu_new" url="/tbailleurs?form" z="D0jtKKA675JRUfJQCAsN8MLHtRE="/>
+            <menu:item id="i_tbailleur_list" messageCode="global_menu_list" url="/tbailleurs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HRs1zprl8TLLmnYzG2TTLkxK9v4="/>
+        </menu:category>
+        <menu:category id="c_tsection" z="0Dk90QTVGjJwLjncEY0K3zHZNDQ=">
+            <menu:item id="i_tsection_new" messageCode="global_menu_new" url="/tsections?form" z="xcf8r1vbBPnmXi29U0ahKL14PY4="/>
+            <menu:item id="i_tsection_list" messageCode="global_menu_list" url="/tsections?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mazRjVbKzsw2D8pPNTgRs9SNS0Y="/>
+        </menu:category>
+        <menu:category id="c_tlocservice" z="X7FET03Zto5cenOrC49KzLmXvXU=">
+            <menu:item id="i_tlocservice_new" messageCode="global_menu_new" url="/tlocservices?form" z="dGyOyCXeDorLbWwiLHe2yM1HiVg="/>
+            <menu:item id="i_tlocservice_list" messageCode="global_menu_list" url="/tlocservices?page=1&amp;size=${empty param.size ? 10 : param.size}" z="nw0RXkO9x8SMJoimMOCXvKpJ9Ig="/>
+        </menu:category>
+        <menu:category id="c_tlocbenef" z="mczKfsNhvOPga0m2Am2pKkifMz4=">
+            <menu:item id="i_tlocbenef_new" messageCode="global_menu_new" url="/tlocbenefs?form" z="N5E78UnphaHksNCkLuzdbyBarJs="/>
+            <menu:item id="i_tlocbenef_list" messageCode="global_menu_list" url="/tlocbenefs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="w9kAWUw1ACru6aM95/NYsyHvdN0="/>
+        </menu:category>
+        <menu:category id="c_tarticle" z="rj85IwC93WUQWZ9EqbwRyOEok1E=">
+            <menu:item id="i_tarticle_new" messageCode="global_menu_new" url="/tarticles?form" z="GNX0GCUnTM+YualZ5SouQ0TN5mQ="/>
+            <menu:item id="i_tarticle_list" messageCode="global_menu_list" url="/tarticles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JHpos3GVcY5rYFgAheaMzmVO0bI="/>
+        </menu:category>
+        <menu:category id="c_tparagraphe" z="a8cdbDsChW6J/tH5f7Opje92cZA=">
+            <menu:item id="i_tparagraphe_new" messageCode="global_menu_new" url="/tparagraphes?form" z="Sg8g1sZs1ykH4ZYGM0cEBOBDego="/>
+            <menu:item id="i_tparagraphe_list" messageCode="global_menu_list" url="/tparagraphes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z+4QRszuhlzL+PMCT23/jIwb40A="/>
+        </menu:category>
+        <menu:category id="c_tgroupe" z="EFDrBjNF6TnbTkpqQt6yrnovgec=">
+            <menu:item id="i_tgroupe_new" messageCode="global_menu_new" url="/tgroupes?form" z="5PTlsCRyzsfwa4Ltxrvq7Pwwz/s="/>
+            <menu:item id="i_tgroupe_list" messageCode="global_menu_list" url="/tgroupes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="T6B+vVWNJhFB8hWLGDdUzw7r9nQ="/>
+        </menu:category>
+        <menu:category id="c_tregion" z="r3cOt/R4kNuT6IbXrfjZoi5yLKk=">
+            <menu:item id="i_tregion_new" messageCode="global_menu_new" url="/tregions?form" z="nc/tdxbnjC/jduZ/ppNtclcF2tE="/>
+            <menu:item id="i_tregion_list" messageCode="global_menu_list" url="/tregions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Ivp1I6NCCxC8iZjmdHpB4KArtic="/>
+        </menu:category>
+        <menu:category id="c_taxescape" z="olql9zHw5fH1RfwghsjzIiP290Q=">
+            <menu:item id="i_taxescape_new" messageCode="global_menu_new" url="/taxescapes?form" z="23KNTP+Z9RDuf22TrBtN/jBl8hU="/>
+            <menu:item id="i_taxescape_list" messageCode="global_menu_list" url="/taxescapes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PI2x/DSVyf3MyL9tMw7nzcPFGD0="/>
+        </menu:category>
+        <menu:category id="c_tligne" z="L/rv4hZJQ9t3KGFy+ew/+MPdx2Y=">
+            <menu:item id="i_tligne_new" messageCode="global_menu_new" url="/tlignes?form" z="ptUOYu8CzrPTVVd+39umvd9A2RA="/>
+            <menu:item id="i_tligne_list" messageCode="global_menu_list" url="/tlignes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="FXMVzv4N+Pstq1LKfsHZ8miq8GE="/>
+        </menu:category>
+        <menu:category id="c_ttypeservice" z="UKFzXzu524Q79nJte2JjtGDO9UU=">
+            <menu:item id="i_ttypeservice_new" messageCode="global_menu_new" url="/ttypeservices?form" z="WJFKibiQd1Ixa3ITRwae9ujohUk="/>
+            <menu:item id="i_ttypeservice_list" messageCode="global_menu_list" url="/ttypeservices?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GeL5HdCjgnkGdrXLh+6bGPAW0t8="/>
+        </menu:category>
+        <menu:category id="c_ttypebudget" z="bdRX+oYBZm+g/GccSLYROzLvZZM=">
+            <menu:item id="i_ttypebudget_new" messageCode="global_menu_new" url="/ttypebudgets?form" z="JTqKGi1Nugh4ehYu/uuqXcchyIo="/>
+            <menu:item id="i_ttypebudget_list" messageCode="global_menu_list" url="/ttypebudgets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Cad1Qsi8R00prq3TOMRGWVIj+pw="/>
+        </menu:category>
+        <menu:category id="c_tgestion" z="wHSuLEJM3BLdhLKkViIFjHkpsYw=">
+            <menu:item id="i_tgestion_new" messageCode="global_menu_new" url="/tgestions?form" z="xv07Lwag9klDXg6NI/ZGaTCUOI4="/>
+            <menu:item id="i_tgestion_list" messageCode="global_menu_list" url="/tgestions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YbkHpbVeH3f0Jz2Ehnw+Ome5RNU="/>
+        </menu:category>
+        <menu:category id="c_tclasse" z="jdoxlectMs6vT0cS3YG0pqNbD4k=">
+            <menu:item id="i_tclasse_new" messageCode="global_menu_new" url="/tclasses?form" z="gcmn6Z8aMQmghPAdK7McbD5F9mM="/>
+            <menu:item id="i_tclasse_list" messageCode="global_menu_list" url="/tclasses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6p/AF/cICVbWuR6gjL0VOfdrqKE="/>
+        </menu:category>
+    </menu:menu>
+</div>

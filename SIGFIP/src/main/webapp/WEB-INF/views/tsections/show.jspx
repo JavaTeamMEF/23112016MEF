@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mef_sigfip_elaboration_TSection" object="${tsection_}" path="/tsections" z="hJQRuAlk47wljXol6HoNbkWDTwY=">
+        <field:display field="sec_lib_court" id="s_com_mef_sigfip_elaboration_TSection_sec_lib_court" object="${tsection_}" z="IaUIAJtP6RtJqU3J+K9DjzHzZdo="/>
+        <field:display field="sec_lib_long" id="s_com_mef_sigfip_elaboration_TSection_sec_lib_long" object="${tsection_}" z="4iJdw8Sf19famvvSYXL1dZa5plg="/>
+    </page:show>
+</div>

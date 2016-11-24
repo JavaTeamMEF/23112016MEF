@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mef_sigfip_elaboration_TBailleur" items="${tbailleurs}" z="6Udzj7VR/IkPdDKIpHN9P+qghE4=">
+        <table:table data="${tbailleurs}" id="l_com_mef_sigfip_elaboration_TBailleur" path="/tbailleurs" z="GjHQPZIlfep1F7Xaw52Vo1fldo0=">
+            <table:column id="c_com_mef_sigfip_elaboration_TBailleur_lib_bailleur" property="lib_bailleur" z="MesxIouCVfIwQHB528dQhurmvZQ="/>
+        </table:table>
+    </page:list>
+</div>

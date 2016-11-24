@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="taxescapes/list">
+        <put-attribute name="body" value="/WEB-INF/views/taxescapes/list.jspx"/>
+    </definition>
+<definition extends="default" name="taxescapes/show">
+        <put-attribute name="body" value="/WEB-INF/views/taxescapes/show.jspx"/>
+    </definition>
+<definition extends="default" name="taxescapes/create">
+        <put-attribute name="body" value="/WEB-INF/views/taxescapes/create.jspx"/>
+    </definition>
+<definition extends="default" name="taxescapes/update">
+        <put-attribute name="body" value="/WEB-INF/views/taxescapes/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mef_sigfip_elaboration_TChapitre" items="${tchapitres}" z="kIwJUgGDBNL9RlfLOG9sgzkmp18=">
+        <table:table data="${tchapitres}" id="l_com_mef_sigfip_elaboration_TChapitre" path="/tchapitres" z="w8lPb/k/HEzYlxmiUbIYaFqiaWc=">
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" property="ib_chap_lib" z="ephWYCX6W8scR1GmUF9XvFc46lw="/>
+        </table:table>
+    </page:list>
+</div>

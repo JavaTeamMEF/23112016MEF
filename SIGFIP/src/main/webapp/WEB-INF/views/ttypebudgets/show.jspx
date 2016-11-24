@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mef_sigfip_elaboration_TTypeBudget" object="${ttypebudget_}" path="/ttypebudgets" z="8GaEAfhLCKieHs2AuolSQnsneSA=">
+        <field:display field="lib_typ_budget" id="s_com_mef_sigfip_elaboration_TTypeBudget_lib_typ_budget" object="${ttypebudget_}" z="6CHpqgUrs/f+AmyigS76mjtOR4E="/>
+    </page:show>
+</div>
