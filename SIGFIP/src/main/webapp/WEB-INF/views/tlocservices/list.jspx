@@ -5,6 +5,8 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TLocService" items="${tlocservices}" z="jz9Us+EYRKi29MqgByQ8sYAeyNY=">
         <table:table data="${tlocservices}" id="l_com_mef_sigfip_elaboration_TLocService" path="/tlocservices" z="gwVfFYAb/VFx1m98VWcHsC3B9m4=">
             <table:column id="c_com_mef_sigfip_elaboration_TLocService_lib_loc_serv" property="lib_loc_serv" z="76+hT2CylmZIR3P6IskJQz1uZpU="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TLocService_liste_chapitre" property="liste_chapitre" z="VMfnmiirMKOYH9H/Xfuq/IbpcYw="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TLocService_prefecture" property="prefecture" z="s2IasI4YCfLzxXRecDyGPOS5KY0="/>
         </table:table>
     </page:list>
 </div>

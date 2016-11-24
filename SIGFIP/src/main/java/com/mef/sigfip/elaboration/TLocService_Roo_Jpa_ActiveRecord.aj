@@ -14,7 +14,7 @@ privileged aspect TLocService_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager TLocService.entityManager;
     
-    public static final List<String> TLocService.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_loc_serv");
+    public static final List<String> TLocService.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_loc_serv", "liste_chapitre", "prefecture");
     
     public static final EntityManager TLocService.entityManager() {
         EntityManager em = new TLocService().entityManager;

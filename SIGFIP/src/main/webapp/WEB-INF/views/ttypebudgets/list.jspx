@@ -5,6 +5,7 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TTypeBudget" items="${ttypebudgets}" z="P0a2kzfnT2/UycT/9qaNvcvDxGE=">
         <table:table data="${ttypebudgets}" id="l_com_mef_sigfip_elaboration_TTypeBudget" path="/ttypebudgets" z="ppcZ8x+m1Z5syjcQciMwSgVNKII=">
             <table:column id="c_com_mef_sigfip_elaboration_TTypeBudget_lib_typ_budget" property="lib_typ_budget" z="pw2s3+ruJ+fimlHuDrlfDHNG96U="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TTypeBudget_liste_chapitre" property="liste_chapitre" z="uU4k09WEpeKqtE5A1XLBkNCs5Yc="/>
         </table:table>
     </page:list>
 </div>

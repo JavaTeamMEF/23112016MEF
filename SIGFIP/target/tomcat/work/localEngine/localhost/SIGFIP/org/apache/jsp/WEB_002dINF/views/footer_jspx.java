@@ -101,8 +101,6 @@ static {
       out.write("</span>");
       if (_jspx_meth_util_005ftheme_005f0(_jspx_page_context))
         return;
-      if (_jspx_meth_spring_005furl_005f2(_jspx_page_context))
-        return;
       if (_jspx_meth_spring_005fmessage_005f3(_jspx_page_context))
         return;
       out.write("<span>");
@@ -382,35 +380,6 @@ static {
     _jspx_th_util_005ftheme_005f0.setJspContext(_jspx_page_context);
     _jspx_th_util_005ftheme_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_util_005ftheme_005f0);
-    return false;
-  }
-
-  private boolean _jspx_meth_spring_005furl_005f2(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  spring:url
-    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f2 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
-    _jspx_th_spring_005furl_005f2.setPageContext(_jspx_page_context);
-    _jspx_th_spring_005furl_005f2.setParent(null);
-    // /WEB-INF/views/footer.jspx(30,75) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f2.setVar("logo");
-    // /WEB-INF/views/footer.jspx(30,75) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f2.setValue("/resources/images/springsource-logo.png");
-    int[] _jspx_push_body_count_spring_005furl_005f2 = new int[] { 0 };
-    try {
-      int _jspx_eval_spring_005furl_005f2 = _jspx_th_spring_005furl_005f2.doStartTag();
-      if (_jspx_th_spring_005furl_005f2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_spring_005furl_005f2[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_spring_005furl_005f2.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_spring_005furl_005f2.doFinally();
-      _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_spring_005furl_005f2);
-    }
     return false;
   }
 

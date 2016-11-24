@@ -3,6 +3,7 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TTypeBudget;
 import com.mef.sigfip.elaboration.web.TTypeBudgetController;
 import java.io.UnsupportedEncodingException;
@@ -86,6 +87,7 @@ privileged aspect TTypeBudgetController_Roo_Controller {
     
     void TTypeBudgetController.populateEditForm(Model uiModel, TTypeBudget TTypeBudget_) {
         uiModel.addAttribute("TTypeBudget_", TTypeBudget_);
+        uiModel.addAttribute("tchapitres", TChapitre.findAllTChapitres());
     }
     
     String TTypeBudgetController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

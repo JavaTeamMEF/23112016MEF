@@ -5,6 +5,7 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TRegion" items="${tregions}" z="i+lac7SfWB6hsdB1K1ivIjzVfhs=">
         <table:table data="${tregions}" id="l_com_mef_sigfip_elaboration_TRegion" path="/tregions" z="YtY1LMkVk13Et43Os14beKmfFJc=">
             <table:column id="c_com_mef_sigfip_elaboration_TRegion_lib_region" property="lib_region" z="ivp72CKXyN04GcNbwE2cyWPydoA="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TRegion_liste_prefecture" property="liste_prefecture" z="4tlH5Qo6tY1s1diCQoIU6+B6QGw="/>
         </table:table>
     </page:list>
 </div>

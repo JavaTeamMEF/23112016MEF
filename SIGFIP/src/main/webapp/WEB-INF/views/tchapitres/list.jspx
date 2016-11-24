@@ -6,6 +6,10 @@
         <table:table data="${tchapitres}" id="l_com_mef_sigfip_elaboration_TChapitre" path="/tchapitres" z="w8lPb/k/HEzYlxmiUbIYaFqiaWc=">
             <table:column id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" property="ib_chap_lib" z="ephWYCX6W8scR1GmUF9XvFc46lw="/>
             <table:column id="c_com_mef_sigfip_elaboration_TChapitre_sect" property="sect" z="aDkyNy45D6EAohdPlDPPLrHlYkA="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_budget" property="budget" z="zrUbu0pFz3ARWNEfHLa53wzc6bQ="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_localisation_service" property="localisation_service" z="Dh9XNgGlSAHMIPvLX1KpoS3L5WM="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_categorie_service" property="categorie_service" z="c19o9wydN67U/e3QCYAxwyRGe9Y="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TChapitre_numero_ordre_service" property="numero_ordre_service" z="LJ2hchSzeFncPdWZ9fax8aaKU68="/>
         </table:table>
     </page:list>
 </div>

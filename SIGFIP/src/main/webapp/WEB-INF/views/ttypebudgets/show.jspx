@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TTypeBudget" object="${ttypebudget_}" path="/ttypebudgets" z="8GaEAfhLCKieHs2AuolSQnsneSA=">
         <field:display field="lib_typ_budget" id="s_com_mef_sigfip_elaboration_TTypeBudget_lib_typ_budget" object="${ttypebudget_}" z="6CHpqgUrs/f+AmyigS76mjtOR4E="/>
+        <field:display field="liste_chapitre" id="s_com_mef_sigfip_elaboration_TTypeBudget_liste_chapitre" object="${ttypebudget_}" z="THyAAUrhPwO20XRiA+nOtAztiMI="/>
     </page:show>
 </div>

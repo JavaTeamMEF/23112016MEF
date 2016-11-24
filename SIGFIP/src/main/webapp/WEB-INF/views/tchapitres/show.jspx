@@ -5,5 +5,9 @@
     <page:show id="ps_com_mef_sigfip_elaboration_TChapitre" object="${tchapitre_}" path="/tchapitres" z="kOIDmdQ7KgxCk0xPS03Nr/GC3qE=">
         <field:display field="ib_chap_lib" id="s_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" object="${tchapitre_}" z="lWzDM8CGcKhNQrtswnWyqC99Re4="/>
         <field:display field="sect" id="s_com_mef_sigfip_elaboration_TChapitre_sect" object="${tchapitre_}" z="uirZaeZb8p/fSBatU+FqnKn1RF8="/>
+        <field:display field="budget" id="s_com_mef_sigfip_elaboration_TChapitre_budget" object="${tchapitre_}" z="y8aUfj8xjRbz38AU5LSC1snk7Lg="/>
+        <field:display field="localisation_service" id="s_com_mef_sigfip_elaboration_TChapitre_localisation_service" object="${tchapitre_}" z="Q2qsRugeuF5WaurW4znZ6IMRboE="/>
+        <field:display field="categorie_service" id="s_com_mef_sigfip_elaboration_TChapitre_categorie_service" object="${tchapitre_}" z="QFzony7HQ+J8HSDkKAltr21lAuU="/>
+        <field:display field="numero_ordre_service" id="s_com_mef_sigfip_elaboration_TChapitre_numero_ordre_service" object="${tchapitre_}" z="v/J/bTaW1rKnlm25id6GMLk/um0="/>
     </page:show>
 </div>

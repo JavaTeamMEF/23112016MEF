@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TTypeService" object="${ttypeservice_}" path="/ttypeservices" z="WHqqMscPYWGYZr6gAS3jJo9a3G0=">
         <field:display field="lib_typ_serv" id="s_com_mef_sigfip_elaboration_TTypeService_lib_typ_serv" object="${ttypeservice_}" z="rVIfbDX/O6iOa2BA4DbKZUzNbFo="/>
+        <field:display field="liste_cat_service" id="s_com_mef_sigfip_elaboration_TTypeService_liste_cat_service" object="${ttypeservice_}" z="LyIKg1PhIpLLp4aWrTY7tYxtaOg="/>
     </page:show>
 </div>

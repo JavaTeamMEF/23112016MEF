@@ -3,7 +3,10 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TLocService;
+import com.mef.sigfip.elaboration.TPrefecture;
+import java.util.List;
 
 privileged aspect TLocService_Roo_JavaBean {
     
@@ -13,6 +16,22 @@ privileged aspect TLocService_Roo_JavaBean {
     
     public void TLocService.setLib_loc_serv(String lib_loc_serv) {
         this.lib_loc_serv = lib_loc_serv;
+    }
+    
+    public List<TChapitre> TLocService.getListe_chapitre() {
+        return this.liste_chapitre;
+    }
+    
+    public void TLocService.setListe_chapitre(List<TChapitre> liste_chapitre) {
+        this.liste_chapitre = liste_chapitre;
+    }
+    
+    public TPrefecture TLocService.getPrefecture() {
+        return this.prefecture;
+    }
+    
+    public void TLocService.setPrefecture(TPrefecture prefecture) {
+        this.prefecture = prefecture;
     }
     
 }

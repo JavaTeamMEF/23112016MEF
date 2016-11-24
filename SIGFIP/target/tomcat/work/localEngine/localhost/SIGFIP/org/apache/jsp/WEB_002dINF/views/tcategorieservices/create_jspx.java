@@ -12,12 +12,13 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
   private static java.util.List _jspx_dependants;
 
   static {
-    _jspx_dependants = new java.util.ArrayList(5);
+    _jspx_dependants = new java.util.ArrayList(6);
     _jspx_dependants.add("/WEB-INF/tags/form/create.tagx");
     _jspx_dependants.add("/WEB-INF/tags/util/panel.tagx");
     _jspx_dependants.add("/WEB-INF/tags/form/fields/input.tagx");
-    _jspx_dependants.add("/WEB-INF/tags/form/dependency.tagx");
+    _jspx_dependants.add("/WEB-INF/tags/form/fields/select.tagx");
     _jspx_dependants.add("/WEB-INF/tags/form/fields/reference.tagx");
+    _jspx_dependants.add("/WEB-INF/tags/form/dependency.tagx");
   }
 
   private javax.el.ExpressionFactory _el_expressionfactory;
@@ -121,6 +122,60 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     return false;
   }
 
+  private boolean _jspx_meth_field_005fselect_005f0(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  field:select
+    org.apache.jsp.tag.web.form.fields.select_tagx _jspx_th_field_005fselect_005f0 = new org.apache.jsp.tag.web.form.fields.select_tagx();
+    org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f0);
+    _jspx_th_field_005fselect_005f0.setJspContext(_jspx_page_context);
+    _jspx_th_field_005fselect_005f0.setParent(_jspx_parent);
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setZ("AOzA4KK3W1vdTJ1Z1QXuoHBb1Mw=");
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setPath("/tchapitres");
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = multiple type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setMultiple(new Boolean(true));
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setItems((java.util.Collection) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${tchapitres}", java.util.Collection.class, (PageContext)_jspx_page_context, null, false));
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = itemValue type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setItemValue("id");
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setId("c_com_mef_sigfip_elaboration_TCategorieService_liste_chapitre");
+    // /WEB-INF/views/tcategorieservices/create.jspx(7,219) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f0.setField("liste_chapitre");
+    _jspx_th_field_005fselect_005f0.doTag();
+    org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f0);
+    return false;
+  }
+
+  private boolean _jspx_meth_field_005fselect_005f1(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  field:select
+    org.apache.jsp.tag.web.form.fields.select_tagx _jspx_th_field_005fselect_005f1 = new org.apache.jsp.tag.web.form.fields.select_tagx();
+    org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f1);
+    _jspx_th_field_005fselect_005f1.setJspContext(_jspx_page_context);
+    _jspx_th_field_005fselect_005f1.setParent(_jspx_parent);
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setZ("u2SolC/5eB5YQtVOB+osTpsr86I=");
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = path type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setPath("/ttypeservices");
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = items type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setItems((java.util.Collection) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${ttypeservices}", java.util.Collection.class, (PageContext)_jspx_page_context, null, false));
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = itemValue type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setItemValue("id");
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setId("c_com_mef_sigfip_elaboration_TCategorieService_type_service");
+    // /WEB-INF/views/tcategorieservices/create.jspx(8,205) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005fselect_005f1.setField("type_service");
+    _jspx_th_field_005fselect_005f1.doTag();
+    org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fselect_005f1);
+    return false;
+  }
+
   private boolean _jspx_meth_form_005fdependency_005f0(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -129,13 +184,13 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jsp.tag.web.form.dependency_tagx _jspx_th_form_005fdependency_005f0 = new org.apache.jsp.tag.web.form.dependency_tagx();
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_form_005fdependency_005f0);
     _jspx_th_form_005fdependency_005f0.setJspContext(_jspx_page_context);
-    // /WEB-INF/views/tcategorieservices/create.jspx(8,174) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/tcategorieservices/create.jspx(10,174) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_form_005fdependency_005f0.setZ("MxPf8c5QNlUpysGdHlaoYbBI3/g=");
-    // /WEB-INF/views/tcategorieservices/create.jspx(8,174) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/tcategorieservices/create.jspx(10,174) name = render type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_form_005fdependency_005f0.setRender((java.lang.Boolean) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${not empty dependencies}", java.lang.Boolean.class, (PageContext)_jspx_page_context, null, false));
-    // /WEB-INF/views/tcategorieservices/create.jspx(8,174) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/tcategorieservices/create.jspx(10,174) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_form_005fdependency_005f0.setId("d_com_mef_sigfip_elaboration_TCategorieService");
-    // /WEB-INF/views/tcategorieservices/create.jspx(8,174) name = dependencies type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/tcategorieservices/create.jspx(10,174) name = dependencies type = java.util.Collection reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_form_005fdependency_005f0.setDependencies((java.util.Collection) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${dependencies}", java.util.Collection.class, (PageContext)_jspx_page_context, null, false));
     _jspx_th_form_005fdependency_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_form_005fdependency_005f0);
@@ -157,6 +212,10 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
       throws Throwable
     {
       if (_jspx_meth_field_005finput_005f0(_jspx_parent, _jspx_page_context))
+        return true;
+      if (_jspx_meth_field_005fselect_005f0(_jspx_parent, _jspx_page_context))
+        return true;
+      if (_jspx_meth_field_005fselect_005f1(_jspx_parent, _jspx_page_context))
         return true;
       return false;
     }

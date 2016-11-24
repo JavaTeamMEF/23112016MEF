@@ -21,4 +21,24 @@ public class TChapitre {
      */
     @ManyToOne
     private TSection sect;
+
+    /**
+     */
+    @ManyToOne
+    private TTypeBudget budget;
+
+    /**
+     */
+    @ManyToOne
+    private TLocService localisation_service;
+
+    /**
+     */
+    @ManyToOne
+    private TCategorieService categorie_service;
+
+    /**
+     */
+    @ManyToOne
+    private TNumOrdreServ numero_ordre_service;
 }

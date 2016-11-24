@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_mef_sigfip_elaboration_TPrefecture" modelAttribute="TPrefecture_" path="/tprefectures" versionField="Version" z="cHjhu8mhcq5Vdc7TAqMhiKPeFk8=">
         <field:input field="lib_prefecture" id="c_com_mef_sigfip_elaboration_TPrefecture_lib_prefecture" z="2n1CxDYRRRtmsVSySVuClcvxFxE="/>
+        <field:select field="liste_loc_service" id="c_com_mef_sigfip_elaboration_TPrefecture_liste_loc_service" itemValue="id" items="${tlocservices}" multiple="true" path="/tlocservices" z="IEgyjulC5iN5QlbBDkveRTKWyFc="/>
+        <field:select field="region" id="c_com_mef_sigfip_elaboration_TPrefecture_region" itemValue="id" items="${tregions}" path="/tregions" z="yxXtoFCnUy73/eRRMfkLUvOHeJE="/>
     </form:update>
 </div>

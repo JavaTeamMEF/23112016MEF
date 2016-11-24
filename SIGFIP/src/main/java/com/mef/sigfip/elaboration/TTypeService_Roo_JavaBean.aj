@@ -3,7 +3,9 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TCategorieService;
 import com.mef.sigfip.elaboration.TTypeService;
+import java.util.List;
 
 privileged aspect TTypeService_Roo_JavaBean {
     
@@ -13,6 +15,14 @@ privileged aspect TTypeService_Roo_JavaBean {
     
     public void TTypeService.setLib_typ_serv(String lib_typ_serv) {
         this.lib_typ_serv = lib_typ_serv;
+    }
+    
+    public List<TCategorieService> TTypeService.getListe_cat_service() {
+        return this.liste_cat_service;
+    }
+    
+    public void TTypeService.setListe_cat_service(List<TCategorieService> liste_cat_service) {
+        this.liste_cat_service = liste_cat_service;
     }
     
 }

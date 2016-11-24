@@ -4,6 +4,8 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_mef_sigfip_elaboration_TCategorieService" modelAttribute="TCategorieService_" path="/tcategorieservices" render="${empty dependencies}" z="hsAnNMZj3vwv/hatHEILj0UaLhE=">
         <field:input field="lib_categ_seerv" id="c_com_mef_sigfip_elaboration_TCategorieService_lib_categ_seerv" z="ELEuoLX67nYBUN4tz3ua2M4FRzs="/>
+        <field:select field="liste_chapitre" id="c_com_mef_sigfip_elaboration_TCategorieService_liste_chapitre" itemValue="id" items="${tchapitres}" multiple="true" path="/tchapitres" z="AOzA4KK3W1vdTJ1Z1QXuoHBb1Mw="/>
+        <field:select field="type_service" id="c_com_mef_sigfip_elaboration_TCategorieService_type_service" itemValue="id" items="${ttypeservices}" path="/ttypeservices" z="u2SolC/5eB5YQtVOB+osTpsr86I="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TCategorieService" render="${not empty dependencies}" z="MxPf8c5QNlUpysGdHlaoYbBI3/g="/>
 </div>

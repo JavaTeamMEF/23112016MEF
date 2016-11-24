@@ -14,7 +14,7 @@ privileged aspect TNumOrdreServ_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager TNumOrdreServ.entityManager;
     
-    public static final List<String> TNumOrdreServ.fieldNames4OrderClauseFilter = java.util.Arrays.asList("");
+    public static final List<String> TNumOrdreServ.fieldNames4OrderClauseFilter = java.util.Arrays.asList("liste_chapitre");
     
     public static final EntityManager TNumOrdreServ.entityManager() {
         EntityManager em = new TNumOrdreServ().entityManager;

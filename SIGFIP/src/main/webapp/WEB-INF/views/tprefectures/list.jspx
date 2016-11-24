@@ -5,6 +5,8 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TPrefecture" items="${tprefectures}" z="Y32ignndlyunUfK8Y2x1engyICI=">
         <table:table data="${tprefectures}" id="l_com_mef_sigfip_elaboration_TPrefecture" path="/tprefectures" z="eaLy8yanU5akuQK13zkfrOMZryM=">
             <table:column id="c_com_mef_sigfip_elaboration_TPrefecture_lib_prefecture" property="lib_prefecture" z="2/v54CtOkpy+lT+WODJkUDoauH4="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TPrefecture_liste_loc_service" property="liste_loc_service" z="ZQLpWK0uCwP9qr2Vez43Oa4b3to="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TPrefecture_region" property="region" z="1GJmbVfdBcMftU9i5T1eq7P/nj4="/>
         </table:table>
     </page:list>
 </div>

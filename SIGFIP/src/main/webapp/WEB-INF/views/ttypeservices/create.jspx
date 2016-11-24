@@ -4,6 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_mef_sigfip_elaboration_TTypeService" modelAttribute="TTypeService_" path="/ttypeservices" render="${empty dependencies}" z="e9bB+7bBjiW85v+fVFb28L1vz3w=">
         <field:input field="lib_typ_serv" id="c_com_mef_sigfip_elaboration_TTypeService_lib_typ_serv" z="+9gzDKQlCnFTCGqvMBqB0WzhE/U="/>
+        <field:select field="liste_cat_service" id="c_com_mef_sigfip_elaboration_TTypeService_liste_cat_service" itemValue="id" items="${tcategorieservices}" multiple="true" path="/tcategorieservices" z="75hO0d017lFV4eot3ZgPg7KdQlQ="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TTypeService" render="${not empty dependencies}" z="Vf0+j31BSQSRnQPo0LGz64jh21Q="/>
 </div>

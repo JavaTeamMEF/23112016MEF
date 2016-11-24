@@ -3,7 +3,9 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TLocService;
+import com.mef.sigfip.elaboration.TPrefecture;
 import com.mef.sigfip.elaboration.web.TLocServiceController;
 import java.io.UnsupportedEncodingException;
 import javax.servlet.http.HttpServletRequest;
@@ -86,6 +88,8 @@ privileged aspect TLocServiceController_Roo_Controller {
     
     void TLocServiceController.populateEditForm(Model uiModel, TLocService TLocService_) {
         uiModel.addAttribute("TLocService_", TLocService_);
+        uiModel.addAttribute("tchapitres", TChapitre.findAllTChapitres());
+        uiModel.addAttribute("tprefectures", TPrefecture.findAllTPrefectures());
     }
     
     String TLocServiceController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

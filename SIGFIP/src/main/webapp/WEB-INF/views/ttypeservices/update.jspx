@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_mef_sigfip_elaboration_TTypeService" modelAttribute="TTypeService_" path="/ttypeservices" versionField="Version" z="t5SdaPWc3ZYNNVP3gqPz9XzG++I=">
         <field:input field="lib_typ_serv" id="c_com_mef_sigfip_elaboration_TTypeService_lib_typ_serv" z="+9gzDKQlCnFTCGqvMBqB0WzhE/U="/>
+        <field:select field="liste_cat_service" id="c_com_mef_sigfip_elaboration_TTypeService_liste_cat_service" itemValue="id" items="${tcategorieservices}" multiple="true" path="/tcategorieservices" z="75hO0d017lFV4eot3ZgPg7KdQlQ="/>
     </form:update>
 </div>

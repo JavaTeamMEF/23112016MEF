@@ -3,8 +3,12 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TCategorieService;
 import com.mef.sigfip.elaboration.TChapitre;
+import com.mef.sigfip.elaboration.TLocService;
+import com.mef.sigfip.elaboration.TNumOrdreServ;
 import com.mef.sigfip.elaboration.TSection;
+import com.mef.sigfip.elaboration.TTypeBudget;
 
 privileged aspect TChapitre_Roo_JavaBean {
     
@@ -22,6 +26,38 @@ privileged aspect TChapitre_Roo_JavaBean {
     
     public void TChapitre.setSect(TSection sect) {
         this.sect = sect;
+    }
+    
+    public TTypeBudget TChapitre.getBudget() {
+        return this.budget;
+    }
+    
+    public void TChapitre.setBudget(TTypeBudget budget) {
+        this.budget = budget;
+    }
+    
+    public TLocService TChapitre.getLocalisation_service() {
+        return this.localisation_service;
+    }
+    
+    public void TChapitre.setLocalisation_service(TLocService localisation_service) {
+        this.localisation_service = localisation_service;
+    }
+    
+    public TCategorieService TChapitre.getCategorie_service() {
+        return this.categorie_service;
+    }
+    
+    public void TChapitre.setCategorie_service(TCategorieService categorie_service) {
+        this.categorie_service = categorie_service;
+    }
+    
+    public TNumOrdreServ TChapitre.getNumero_ordre_service() {
+        return this.numero_ordre_service;
+    }
+    
+    public void TChapitre.setNumero_ordre_service(TNumOrdreServ numero_ordre_service) {
+        this.numero_ordre_service = numero_ordre_service;
     }
     
 }

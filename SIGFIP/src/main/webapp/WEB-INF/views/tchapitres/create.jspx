@@ -5,6 +5,10 @@
     <form:create id="fc_com_mef_sigfip_elaboration_TChapitre" modelAttribute="TChapitre_" path="/tchapitres" render="${empty dependencies}" z="0qX3CQGnvaSJm2Z2L7i1kzxg+e8=">
         <field:input field="ib_chap_lib" id="c_com_mef_sigfip_elaboration_TChapitre_ib_chap_lib" z="ceEelD7Q1Q3h5PxfCwtRfGjNj6o="/>
         <field:select field="sect" id="c_com_mef_sigfip_elaboration_TChapitre_sect" itemValue="id" items="${tsections}" path="/tsections" z="k6ah0FMjbYf7uhIJ1EOVLK/Gpck="/>
+        <field:select field="budget" id="c_com_mef_sigfip_elaboration_TChapitre_budget" itemValue="id" items="${ttypebudgets}" path="/ttypebudgets" z="ddPhL2qMPFY3j6letLVw2LaNiQ4="/>
+        <field:select field="localisation_service" id="c_com_mef_sigfip_elaboration_TChapitre_localisation_service" itemValue="id" items="${tlocservices}" path="/tlocservices" z="sBytzkTH14P4olpFBNCIXPAQQ0Y="/>
+        <field:select field="categorie_service" id="c_com_mef_sigfip_elaboration_TChapitre_categorie_service" itemValue="id" items="${tcategorieservices}" path="/tcategorieservices" z="LwW9jl97GK7D7noWeGnIOg2/PHM="/>
+        <field:select field="numero_ordre_service" id="c_com_mef_sigfip_elaboration_TChapitre_numero_ordre_service" itemValue="id" items="${tnumordreservs}" path="/tnumordreservs" z="/gI5s2lDPanBLUvop7j0/vtH9iI="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TChapitre" render="${not empty dependencies}" z="KWPfqPKDTO6cNxCj+UYWGxcF3ko="/>
 </div>

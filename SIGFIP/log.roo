@@ -94,3 +94,34 @@ addon search french
 addon info id 1
 addon install id 1
 addon info id --searchResultId 1
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 11:12:42
+addon search
+addon search fr
+addon search french
+addon search i18n
+addon search Spain
+addon search French
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2016-11-24 11:26:35
+addon search --requiresDescription french
+focus --class ~.TChapitre
+field reference --fieldName budget --type ~.TTypeBudget
+field reference --fieldName localisation_service --type ~.TLocService
+field reference --fieldName categorie_service --type ~.TCategorieService
+field reference --fieldName numero_ordre_service --type ~.TNumOrdreServ
+focus --class ~.TNumOrdreServ
+field list --fieldName liste_chapitre --type ~.TChapitre 
+focus --class ~.TCategorieService
+field list --fieldName liste_chapitre --type ~.TChapitre
+field reference --fieldName type_service --type ~.TTypeService
+focus --class ~.TTypeBudget
+field list --fieldName liste_chapitre --type ~.TChapitre
+focus --class ~.TLocService
+field list --fieldName liste_chapitre --type ~.TChapitre
+field reference --fieldName prefecture --type ~.TPrefecture
+focus --class ~.TPrefecture
+field list --fieldName liste_loc_service --type ~.TLocService
+field reference --fieldName region --type ~.TRegion
+focus --class ~.TTypeService
+field list --fieldName liste_cat_service --type ~.TCategorieService
+focus --class ~.TRegion 
+field list --fieldName liste_prefecture --type ~.TPrefecture

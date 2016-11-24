@@ -3,7 +3,10 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TLocService;
 import com.mef.sigfip.elaboration.TPrefecture;
+import com.mef.sigfip.elaboration.TRegion;
+import java.util.List;
 
 privileged aspect TPrefecture_Roo_JavaBean {
     
@@ -13,6 +16,22 @@ privileged aspect TPrefecture_Roo_JavaBean {
     
     public void TPrefecture.setLib_prefecture(String lib_prefecture) {
         this.lib_prefecture = lib_prefecture;
+    }
+    
+    public List<TLocService> TPrefecture.getListe_loc_service() {
+        return this.liste_loc_service;
+    }
+    
+    public void TPrefecture.setListe_loc_service(List<TLocService> liste_loc_service) {
+        this.liste_loc_service = liste_loc_service;
+    }
+    
+    public TRegion TPrefecture.getRegion() {
+        return this.region;
+    }
+    
+    public void TPrefecture.setRegion(TRegion region) {
+        this.region = region;
     }
     
 }

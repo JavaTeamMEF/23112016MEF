@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TLocService" object="${tlocservice_}" path="/tlocservices" z="pGDfMxULJOYBlnis4bgv91m8QiA=">
         <field:display field="lib_loc_serv" id="s_com_mef_sigfip_elaboration_TLocService_lib_loc_serv" object="${tlocservice_}" z="aRw9UzJ20iEJoc272AV6lDkhfYs="/>
+        <field:display field="liste_chapitre" id="s_com_mef_sigfip_elaboration_TLocService_liste_chapitre" object="${tlocservice_}" z="X3WmCWOtYevsZOh3QSGkQfDmfKw="/>
+        <field:display field="prefecture" id="s_com_mef_sigfip_elaboration_TLocService_prefecture" object="${tlocservice_}" z="BpLW+5SGSg+EAEVqAageZMim+4Q="/>
     </page:show>
 </div>

@@ -3,7 +3,9 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TTypeBudget;
+import java.util.List;
 
 privileged aspect TTypeBudget_Roo_JavaBean {
     
@@ -13,6 +15,14 @@ privileged aspect TTypeBudget_Roo_JavaBean {
     
     public void TTypeBudget.setLib_typ_budget(String lib_typ_budget) {
         this.lib_typ_budget = lib_typ_budget;
+    }
+    
+    public List<TChapitre> TTypeBudget.getListe_chapitre() {
+        return this.liste_chapitre;
+    }
+    
+    public void TTypeBudget.setListe_chapitre(List<TChapitre> liste_chapitre) {
+        this.liste_chapitre = liste_chapitre;
     }
     
 }

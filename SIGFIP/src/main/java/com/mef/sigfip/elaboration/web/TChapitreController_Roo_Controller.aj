@@ -3,8 +3,12 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TCategorieService;
 import com.mef.sigfip.elaboration.TChapitre;
+import com.mef.sigfip.elaboration.TLocService;
+import com.mef.sigfip.elaboration.TNumOrdreServ;
 import com.mef.sigfip.elaboration.TSection;
+import com.mef.sigfip.elaboration.TTypeBudget;
 import com.mef.sigfip.elaboration.web.TChapitreController;
 import java.io.UnsupportedEncodingException;
 import javax.servlet.http.HttpServletRequest;
@@ -87,7 +91,11 @@ privileged aspect TChapitreController_Roo_Controller {
     
     void TChapitreController.populateEditForm(Model uiModel, TChapitre TChapitre_) {
         uiModel.addAttribute("TChapitre_", TChapitre_);
+        uiModel.addAttribute("tcategorieservices", TCategorieService.findAllTCategorieServices());
+        uiModel.addAttribute("tlocservices", TLocService.findAllTLocServices());
+        uiModel.addAttribute("tnumordreservs", TNumOrdreServ.findAllTNumOrdreServs());
         uiModel.addAttribute("tsections", TSection.findAllTSections());
+        uiModel.addAttribute("ttypebudgets", TTypeBudget.findAllTTypeBudgets());
     }
     
     String TChapitreController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

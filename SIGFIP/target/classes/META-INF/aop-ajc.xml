@@ -12,6 +12,7 @@
 <aspect name="com.mef.sigfip.elaboration.web.TGestionController_Roo_Controller"/>
 <aspect name="com.mef.sigfip.elaboration.TSection_Roo_Jpa_Entity"/>
 <aspect name="com.mef.sigfip.elaboration.TParagraphe_Roo_Jpa_Entity"/>
+<aspect name="com.mef.sigfip.elaboration.TNumOrdreServ_Roo_JavaBean"/>
 <aspect name="com.mef.sigfip.elaboration.TLocService_Roo_Configurable"/>
 <aspect name="com.mef.sigfip.elaboration.TLocBenef_Roo_Jpa_ActiveRecord"/>
 <aspect name="com.mef.sigfip.elaboration.TChapitre_Roo_JavaBean"/>

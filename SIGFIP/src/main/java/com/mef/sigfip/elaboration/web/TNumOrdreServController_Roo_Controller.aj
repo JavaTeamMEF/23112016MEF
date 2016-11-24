@@ -3,6 +3,7 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TChapitre;
 import com.mef.sigfip.elaboration.TNumOrdreServ;
 import com.mef.sigfip.elaboration.web.TNumOrdreServController;
 import java.io.UnsupportedEncodingException;
@@ -86,6 +87,7 @@ privileged aspect TNumOrdreServController_Roo_Controller {
     
     void TNumOrdreServController.populateEditForm(Model uiModel, TNumOrdreServ TNumOrdreServ_) {
         uiModel.addAttribute("TNumOrdreServ_", TNumOrdreServ_);
+        uiModel.addAttribute("tchapitres", TChapitre.findAllTChapitres());
     }
     
     String TNumOrdreServController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

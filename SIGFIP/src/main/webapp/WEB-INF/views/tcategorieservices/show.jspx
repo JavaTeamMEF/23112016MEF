@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TCategorieService" object="${tcategorieservice_}" path="/tcategorieservices" z="yOa+8HE/LFsE5rWyUNyUprO/pHs=">
         <field:display field="lib_categ_seerv" id="s_com_mef_sigfip_elaboration_TCategorieService_lib_categ_seerv" object="${tcategorieservice_}" z="Kq79qy16AaDKCIA72QiMGqCqpEA="/>
+        <field:display field="liste_chapitre" id="s_com_mef_sigfip_elaboration_TCategorieService_liste_chapitre" object="${tcategorieservice_}" z="LgFBqzNY4VsMRAviaoBxsB0FeXA="/>
+        <field:display field="type_service" id="s_com_mef_sigfip_elaboration_TCategorieService_type_service" object="${tcategorieservice_}" z="wvCpMR84kZSLJPzJK3CcZDIF+sU="/>
     </page:show>
 </div>

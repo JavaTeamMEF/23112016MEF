@@ -5,6 +5,8 @@
     <page:list id="pl_com_mef_sigfip_elaboration_TCategorieService" items="${tcategorieservices}" z="xWaS8OkNkbnJTbzAM2oa+ncmobw=">
         <table:table data="${tcategorieservices}" id="l_com_mef_sigfip_elaboration_TCategorieService" path="/tcategorieservices" z="oJOb9lkZZ8inhXckX2djMfyWvY8=">
             <table:column id="c_com_mef_sigfip_elaboration_TCategorieService_lib_categ_seerv" property="lib_categ_seerv" z="qr1dt9GDZoIk/1tAn/jQ7aVJ/F4="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TCategorieService_liste_chapitre" property="liste_chapitre" z="qip/vNxWDe5fQA+sCiEPWBbZi/k="/>
+            <table:column id="c_com_mef_sigfip_elaboration_TCategorieService_type_service" property="type_service" z="nIP0pNWRcnQ+GANPPnqiDmK4mYc="/>
         </table:table>
     </page:list>
 </div>

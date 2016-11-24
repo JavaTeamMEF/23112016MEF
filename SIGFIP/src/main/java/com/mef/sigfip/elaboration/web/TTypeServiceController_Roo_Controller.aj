@@ -3,6 +3,7 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TCategorieService;
 import com.mef.sigfip.elaboration.TTypeService;
 import com.mef.sigfip.elaboration.web.TTypeServiceController;
 import java.io.UnsupportedEncodingException;
@@ -86,6 +87,7 @@ privileged aspect TTypeServiceController_Roo_Controller {
     
     void TTypeServiceController.populateEditForm(Model uiModel, TTypeService TTypeService_) {
         uiModel.addAttribute("TTypeService_", TTypeService_);
+        uiModel.addAttribute("tcategorieservices", TCategorieService.findAllTCategorieServices());
     }
     
     String TTypeServiceController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

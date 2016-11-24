@@ -3,7 +3,9 @@
 
 package com.mef.sigfip.elaboration;
 
+import com.mef.sigfip.elaboration.TPrefecture;
 import com.mef.sigfip.elaboration.TRegion;
+import java.util.List;
 
 privileged aspect TRegion_Roo_JavaBean {
     
@@ -13,6 +15,14 @@ privileged aspect TRegion_Roo_JavaBean {
     
     public void TRegion.setLib_region(String lib_region) {
         this.lib_region = lib_region;
+    }
+    
+    public List<TPrefecture> TRegion.getListe_prefecture() {
+        return this.liste_prefecture;
+    }
+    
+    public void TRegion.setListe_prefecture(List<TPrefecture> liste_prefecture) {
+        this.liste_prefecture = liste_prefecture;
     }
     
 }

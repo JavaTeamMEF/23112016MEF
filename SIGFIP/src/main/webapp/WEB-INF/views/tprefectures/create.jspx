@@ -4,6 +4,8 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_mef_sigfip_elaboration_TPrefecture" modelAttribute="TPrefecture_" path="/tprefectures" render="${empty dependencies}" z="58TMImXquxvo18CDw241AGDtUhk=">
         <field:input field="lib_prefecture" id="c_com_mef_sigfip_elaboration_TPrefecture_lib_prefecture" z="2n1CxDYRRRtmsVSySVuClcvxFxE="/>
+        <field:select field="liste_loc_service" id="c_com_mef_sigfip_elaboration_TPrefecture_liste_loc_service" itemValue="id" items="${tlocservices}" multiple="true" path="/tlocservices" z="IEgyjulC5iN5QlbBDkveRTKWyFc="/>
+        <field:select field="region" id="c_com_mef_sigfip_elaboration_TPrefecture_region" itemValue="id" items="${tregions}" path="/tregions" z="yxXtoFCnUy73/eRRMfkLUvOHeJE="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_mef_sigfip_elaboration_TPrefecture" render="${not empty dependencies}" z="S45uMoNgPrdk+hqEQu3d1nQZ2Lg="/>
 </div>

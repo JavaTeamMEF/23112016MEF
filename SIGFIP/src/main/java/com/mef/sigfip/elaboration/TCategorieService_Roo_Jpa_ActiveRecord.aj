@@ -14,7 +14,7 @@ privileged aspect TCategorieService_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager TCategorieService.entityManager;
     
-    public static final List<String> TCategorieService.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_categ_seerv");
+    public static final List<String> TCategorieService.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_categ_seerv", "liste_chapitre", "type_service");
     
     public static final EntityManager TCategorieService.entityManager() {
         EntityManager em = new TCategorieService().entityManager;

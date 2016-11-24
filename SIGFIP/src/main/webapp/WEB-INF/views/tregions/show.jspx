@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_mef_sigfip_elaboration_TRegion" object="${tregion_}" path="/tregions" z="94EGidxRwMKj+wM1J6T1Bbc0v2Y=">
         <field:display field="lib_region" id="s_com_mef_sigfip_elaboration_TRegion_lib_region" object="${tregion_}" z="qa/sRjKWWH8hSgzWGInOPNryqOU="/>
+        <field:display field="liste_prefecture" id="s_com_mef_sigfip_elaboration_TRegion_liste_prefecture" object="${tregion_}" z="g12A86qNEGTaPEEg0WIMNwXh+So="/>
     </page:show>
 </div>

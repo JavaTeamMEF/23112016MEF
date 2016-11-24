@@ -14,7 +14,7 @@ privileged aspect TTypeBudget_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager TTypeBudget.entityManager;
     
-    public static final List<String> TTypeBudget.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_typ_budget");
+    public static final List<String> TTypeBudget.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_typ_budget", "liste_chapitre");
     
     public static final EntityManager TTypeBudget.entityManager() {
         EntityManager em = new TTypeBudget().entityManager;

@@ -3,6 +3,7 @@
 
 package com.mef.sigfip.elaboration.web;
 
+import com.mef.sigfip.elaboration.TPrefecture;
 import com.mef.sigfip.elaboration.TRegion;
 import com.mef.sigfip.elaboration.web.TRegionController;
 import java.io.UnsupportedEncodingException;
@@ -86,6 +87,7 @@ privileged aspect TRegionController_Roo_Controller {
     
     void TRegionController.populateEditForm(Model uiModel, TRegion TRegion_) {
         uiModel.addAttribute("TRegion_", TRegion_);
+        uiModel.addAttribute("tprefectures", TPrefecture.findAllTPrefectures());
     }
     
     String TRegionController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

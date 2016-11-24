@@ -4,6 +4,9 @@
 package com.mef.sigfip.elaboration;
 
 import com.mef.sigfip.elaboration.TCategorieService;
+import com.mef.sigfip.elaboration.TChapitre;
+import com.mef.sigfip.elaboration.TTypeService;
+import java.util.List;
 
 privileged aspect TCategorieService_Roo_JavaBean {
     
@@ -13,6 +16,22 @@ privileged aspect TCategorieService_Roo_JavaBean {
     
     public void TCategorieService.setLib_categ_seerv(String lib_categ_seerv) {
         this.lib_categ_seerv = lib_categ_seerv;
+    }
+    
+    public List<TChapitre> TCategorieService.getListe_chapitre() {
+        return this.liste_chapitre;
+    }
+    
+    public void TCategorieService.setListe_chapitre(List<TChapitre> liste_chapitre) {
+        this.liste_chapitre = liste_chapitre;
+    }
+    
+    public TTypeService TCategorieService.getType_service() {
+        return this.type_service;
+    }
+    
+    public void TCategorieService.setType_service(TTypeService type_service) {
+        this.type_service = type_service;
     }
     
 }

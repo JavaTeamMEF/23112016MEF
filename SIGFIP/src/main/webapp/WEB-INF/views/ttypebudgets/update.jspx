@@ -4,5 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_mef_sigfip_elaboration_TTypeBudget" modelAttribute="TTypeBudget_" path="/ttypebudgets" versionField="Version" z="4Bf+wM2rEiPAOK5iOuT3D9mBRxg=">
         <field:input field="lib_typ_budget" id="c_com_mef_sigfip_elaboration_TTypeBudget_lib_typ_budget" z="DMYs5TdxPWSQnW8vWDAkrLcsgFg="/>
+        <field:select field="liste_chapitre" id="c_com_mef_sigfip_elaboration_TTypeBudget_liste_chapitre" itemValue="id" items="${tchapitres}" multiple="true" path="/tchapitres" z="OQDeAVRNlVZ+KG+h+fOxCsYVeUw="/>
     </form:update>
 </div>

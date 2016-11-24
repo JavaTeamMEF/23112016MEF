@@ -14,7 +14,7 @@ privileged aspect TRegion_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager TRegion.entityManager;
     
-    public static final List<String> TRegion.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_region");
+    public static final List<String> TRegion.fieldNames4OrderClauseFilter = java.util.Arrays.asList("lib_region", "liste_prefecture");
     
     public static final EntityManager TRegion.entityManager() {
         EntityManager em = new TRegion().entityManager;
